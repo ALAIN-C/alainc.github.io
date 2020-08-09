@@ -1,0 +1,150 @@
+<html>
+    <head>
+        <title> LA ROULETTE </title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="ROULETTE.css">
+       
+    </head>
+    <nav>
+        <label class="logo"> AL CASINO </label>
+        <ul>
+            <li><a class="active" href="AL CASINO.html">HOME</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">CONTACT</a></li>
+        </ul>
+    </nav>
+    <body>
+        <br><br>         <br><br>        <br><br>
+        <br><br>
+        <br><br>
+        <br><br>
+        <br><br>
+        <br><br>
+        <br><br>
+        <br><br>
+        <br><br>
+        <br><br>
+        <br><br>
+        <br><br>
+        <br><br>
+        <br><br>
+        <br><br>
+        <br><br>
+        <br><br>
+        <br><br>
+        <br><br>
+        <br><br>
+
+        <div class="table">
+            <br><br>
+            <p> BIENVENU À NOTRE ROULETTE 2.0  </p>
+            <br><br>
+            <br><br>
+            <img src="IMG_6875.JPG">
+            <br><br>
+            <br><br>
+            <h3> Veuillez Choisir un Numero ou une Option</h3>
+         <br><br>
+         <FORM>
+            <SELECT number="number" size="1" id="posb" >
+            <OPTION value="37">Pair
+            <OPTION value="38">Impair
+            <OPTION value="1"  selected>1
+            <OPTION value="2">2
+            <OPTION value="3">3
+            <OPTION value="4">4
+            <OPTION value="5">5
+            <OPTION value="6">6
+            <OPTION value="7">7
+            <OPTION value="8">8
+            <OPTION value="9">9
+            <OPTION value="10">10
+            <OPTION value="11">11
+            <OPTION value="12">12
+            <OPTION value="13">13
+            <OPTION value="14">14
+            <OPTION value="15">15
+            <OPTION value="16">16
+            <OPTION value="17">17
+            <OPTION value="18">18
+            <OPTION value="18">19
+            <OPTION value="20">20
+            <OPTION value="21">21
+            <OPTION value="22">22
+            <OPTION value="23">23
+            <OPTION value="24">24
+            <OPTION value="25">25
+            <OPTION value="26">26
+            <OPTION value="27">27
+            <OPTION value="28">28
+            <OPTION value="29">29
+            <OPTION value="30">30
+            <OPTION value="31">31
+            <OPTION value="32">32 
+            <OPTION value="33">33
+            <OPTION value="34">34
+            <OPTION value="35">35
+            <OPTION value="36">36
+            </SELECT>
+            </FORM>
+            
+
+         <h2 class="montant"> SOLDE DU JOUEUR </h2>
+         <br><br>
+         <div style="width: 200px; height: 40px; border: 2px solid white ; margin: auto; padding: 10px;">
+            <span id="joueur">100000</span>
+            <br><br>
+         </div>
+         <br><br>
+         <br><br>
+         <h2 class="montant"> SOLDE DE  L'ORDINATEUR </h2>
+         <br><br>
+         <div style="width: 200px; height: 40px; border: 2px solid white ; margin: auto; padding: 10px;">
+            <span id="ordi">0</span>
+         <br><br>
+         <br><br>
+        </div>
+        <br><br>
+        <br><br>
+         <h2> VEUILLEZ MISER ICI </h2>
+         <br><br>
+         <input id="number" type="number" required>
+         <br><br>
+        
+        <br><br>
+        <br><br>
+        <br><br>
+        <input id="jouer" type="button" onclick="jeux()" value="COMMENCER LA PARTIE" > 
+
+         <br><br>
+         <br><br> 
+         </div>
+  
+        <script type="text/javascript" src="ROULETTE.js">
+            
+        </script>   
+
+        <script>
+        const submit = document.querySelector('.submit');
+
+            const random = (max,min) => {
+
+                return Math.floor(Math.random() * (max - min + 1) + min);
+            }
+            submit.innerHTML = random(36,1);
+            </script>
+       
+    </body>
+    <br> <br>        
+    <br> <br>          
+    <br> <br>
+
+    <footer>
+                
+        <div class="footer-bottom">
+                <p>&copy;Copyright |Design by A.L BOUDOUA| A.L INDUSTRIES-Tous Droits Réservés<br>  
+        </div>
+        
+            
+    </footer>
+</html>

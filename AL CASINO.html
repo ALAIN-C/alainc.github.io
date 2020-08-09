@@ -1,0 +1,78 @@
+<html>
+    <head>
+        <title> AL CASINO </title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="AL CASINO.css">
+       
+    </head>
+    <nav>
+        <label class="logo"> AL CASINO </label>
+        <ul>
+            <li><a class="active" href="AL CASINO.html">HOME</a></li>
+            <li><a href="ROULETTE.html">JEUX CASINO</a></li>
+            <li><a href="#">CONTACT</a></li>
+        </ul>
+    </nav>
+    <body>
+      <div>
+        <img src="Art Deco Casino Night Facebook Event Cover.png">
+    </div>
+       
+    <nav>
+        
+            <p> LA ROULETTE DE LA CHANCE </p>
+        
+    </nav>
+
+    <br> <br>
+    <br> <br>
+    
+    <span class="box" id="Box" >
+        <form>
+            <h1> BIENVENU DANS LE MONDE DU HASARD </h1>
+            <img src="IMG_6280.JPG">
+            <br> <br>
+            <h2> Choississez votre nom de Joueur</h2>
+            <br> <br>
+            <input type="text" placeholder="NOM" required>
+            <br> <br>
+            <input type="text" placeholder="PRENOM" required>
+            <br> <br>
+            <p> Je suis âgé de 18 ans ou plus</p>
+        <br> <br>
+        <br> <br>
+        <label for="test" class="checkbox">
+            <input type="checkbox" required>
+            Attention ce jeu peux pousser à l'addiction en êtes vous conscient?
+        </label> 
+           <br> <br>
+        <label for="test" class="checkbox">
+            <input type="checkbox" required>
+            J'ai lu et accepte les conditions
+            
+            <br> <br>
+            <br> <br>
+            <br> <br>      
+                      
+                <a class="button" href="ROULETTE.html"><P> JOUER MAINTENANT </P></a>
+ 
+            </label>
+            
+        </label>
+        
+        </form>
+    </span> 
+         
+    </body>
+    <br> <br>        
+    <br> <br>          
+    <br> <br>
+
+    <footer>
+                
+        <div class="footer-bottom">
+                <p>&copy;Copyright |Design by A.L BOUDOUA| A.L INDUSTRIES-Tous Droits Réservés<br>  
+        </div>
+        
+    </footer>
+</html>
